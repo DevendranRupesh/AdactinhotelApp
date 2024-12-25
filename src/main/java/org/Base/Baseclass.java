@@ -27,12 +27,13 @@ public class Baseclass {
 	
 	
 	
-//	 
+	 
 	    public static  void launchbrowser(){
 	    	
 	    driver = new ChromeDriver();
 	    	
 	    }
+	//
 
 	    public static void maximizewindow(){
 	        driver.manage().window().maximize();
